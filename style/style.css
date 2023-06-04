@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+
+* {
+    margin: 0;
+}
+
+header {
+    background-color: rgb(15, 29, 156);
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Geologica', sans-serif;
+    height: 8vh;
+}
+
+main {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 82vh;
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    background-color: rgb(15, 29, 156);
+    border-radius: 5px;
+    color: white;
+    font-family: 'Geologica', sans-serif;
+    height: 30px;
+    width: 80px;
+    cursor: pointer;
+}
+
+@keyframes animacao {
+    from {background-color: rgb(15, 29, 156);}
+    to {background-color: rgb(6, 165, 67);}
+}
+
+button:hover {
+    animation-name: animacao;
+    animation-duration: 2s;
+}
+
+.butao {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#butao1 {
+    margin-right: 10px;
+}
+
+#tarefa {
+    height: 20px;
+    background: rgb(255, 255, 255);
+    border: 3px solid #000000;
+    box-shadow: 2px 5px 0px 1px #1d1d1d;
+    border-radius: 5px;
+    outline: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #b4b4b4;
+    width: 40vh;
+}
+
+table th {
+    background-color: #c7c7c7;
+}
+
+#tbody {
+    padding-top: 10px;
+}
+
+.conteudo {
+    margin-top: 15px;
+}
+
+
+

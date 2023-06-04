@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to-do list</title>
+    <script src="script/script.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+    <header>
+
+        <h1>to-do list</h1>
+
+    </header>
+
+    <main>
+
+        <div class="title">
+            <h2>tarefas</h2>
+            <span>lista de tarefas</span>
+        </div>
+
+        <div class="card">
+            <div class="input">
+                <label></label>
+                <input type="text" id="tarefa" placeholder="tarefa">
+            </div>
+            <div class="butao">
+                <button onclick="produto.salvar()" id="butao1">Salvar</button>
+                <button onclick="produto.cancelar()">Cancelar</button>
+            </div>
+        </div>
+        
+        <div class="conteudo">
+            <table border="1">
+                <thead>
+                    <th>check</th>
+                    <th>Tarefa</th>
+                    <th>Funções</th>
+                </thead>
+                <tbody id="tbody">
+                    
+                </tbody>
+            </table>
+        </div>
+
+    </main>
+</body>
+</html>
